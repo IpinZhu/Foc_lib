@@ -1,4 +1,4 @@
-20538846740221469
+20540523564872859
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85583,6 +85583,13 @@ SW_500SSP1S2M2QEA
 3
 USER
 TFCARD
+
+
+0
+0
+0
+USER
+XH2.54-5P
 
 
 0
