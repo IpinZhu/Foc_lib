@@ -1,8 +1,8 @@
 ## 重启Foc项目(Great FOC Restart Project)
 
-### 1.概论
+### 1.概论和目标
 
-基于STM32系列芯片的HAL库Foc代码库，适用于几乎所有的STM32芯片
+基于STM32系列芯片的HAL库Foc代码库，和配套硬件电路
 
 1.采用基本的Foc算法,支持开环和闭环，提供标准API接口
 
@@ -14,13 +14,17 @@
 
 5.Rtos程序，可加入用户自定APP
 
+6.宽电压输入范围和输出大电流
+
 ![image-20230214161355737](https://cdn.jsdelivr.net/gh/IpinZhu/markdown/img/202302141614892.png)
 
 ### 2.硬件
 
-使用DRV8301作为三路逆变器的控制芯片，将功率模块和控制模块区分成上下板部分
+1.使用DRV8301作为三路逆变器的控制芯片，将功率模块和控制模块区分成上下半区部分。
 
-主控采用F405RGT6
+2.主控采用STM32F405RGT6
+
+3.提供一个外部SPI,一个CAN总线和一个复用的TypeC口，可同时将设备进行串口通信和作为USB设备使用
 
 ##### DRV8301
 
@@ -37,36 +41,6 @@
 主要由基本foc算法变换，参照st电机库，使用Q1.15形式（注.无法使用Q1.32格式，计算时会溢出）
 
 ![image-20230214144046622](https://cdn.jsdelivr.net/gh/IpinZhu/markdown/img/202302141440757.png)
-
-使用到的结构体：
-
-```c
-typedef struct
-{
-    int16_t alpha;
-    int16_t beta;
-} alphabeta_t;
-
-typedef struct
-{
-    int16_t a;
-    int16_t b;
-} ab_t;
-
-typedef struct
-{
-    int16_t q;
-    int16_t d;
-} qd_t;
-
-typedef struct
-{
-    int16_t hCos;
-    int16_t hSin;
-} Trig_Components;
-```
-
-##### 2.svpwm.c和svpwm.h
 
 ##### 七段式定时器控制：
 
