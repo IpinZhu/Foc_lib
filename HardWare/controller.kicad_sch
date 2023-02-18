@@ -2812,7 +2812,7 @@
     (property "Value" "GVDD1" (id 1) (at 101.6 29.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (id 2) (at 96.52 34.29 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (id 2) (at 96.52 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 96.52 34.29 0)

@@ -613,7 +613,7 @@
       (reference "J5") (unit 1) (value "Conn_01x03") (footprint "USER:MR30-M")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/21e0c401-8ef7-4914-882d-c6ee756797c4"
-      (reference "J6") (unit 1) (value "SWD") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal")
+      (reference "J6") (unit 1) (value "SWD") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/d79ac6d6-4fbf-4391-8799-33ec50fdb7dd"
       (reference "J7") (unit 1) (value "inp") (footprint "USER:XT30U-M")
@@ -817,7 +817,7 @@
       (reference "R51") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/6aac3d74-734f-421c-8847-5315527d53bf"
-      (reference "TP1") (unit 1) (value "GVDD1") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+      (reference "TP1") (unit 1) (value "GVDD1") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/b67b854c-6b4d-4f0f-ad5a-c020a30afe9b"
       (reference "TP2") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
