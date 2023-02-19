@@ -16,7 +16,7 @@
 
 6.宽电压输入范围和输出大电流
 
-![image-20230219214710136](D:/markdown/image-20230219214710136.png)
+![image-20230219214710136](https://raw.githubusercontent.com/IpinZhu/markdown/main/img/202302192153925.png)
 
 ### 2.硬件
 
