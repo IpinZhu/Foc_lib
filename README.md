@@ -16,7 +16,7 @@
 
 6.宽电压输入范围和输出大电流
 
-![image-20230219190743278](https://raw.githubusercontent.com/IpinZhu/markdown/main/img/202302191907354.png?token=AZIZVKDHVJZMQJ4IPRBAS5LD6IBTW)
+![image-20230219214710136](D:/markdown/image-20230219214710136.png)
 
 ### 2.硬件
 
@@ -30,10 +30,6 @@
 
 自带一个TPS54160Buck芯片，可以对6-60v输入进行降压处理，由于实际使用不超过25V，因此选取6-35V的输入范围，输出5V电压
 
-![image-20230219190756580](https://raw.githubusercontent.com/IpinZhu/markdown/main/img/202302191907623.png?token=AZIZVKE3XI6M4E6L2A2CBCTD6IBUS)
-
-
-
 ### 3.软件
 
 ##### 1.foc.c和foc.h
@@ -44,13 +40,9 @@
 
 ##### SVPWM：
 
-![image-20230219190812114](https://raw.githubusercontent.com/IpinZhu/markdown/main/img/202302191908186.png?token=AZIZVKEOOYIHSLXSHZ3T2VTD6IBVQ)
-
-![image-20230219190823987](https://raw.githubusercontent.com/IpinZhu/markdown/main/img/202302191908060.png?token=AZIZVKCSHXMC7TIB7EKTXELD6IBWI)
-
 ##### 定时器配置
 
-![image-20230219190843773](https://raw.githubusercontent.com/IpinZhu/markdown/main/img/202302191908815.png?token=AZIZVKAAOB26WPENRYQP7CLD6IBXS)
+
 
 分频系数为1-1=0
 
