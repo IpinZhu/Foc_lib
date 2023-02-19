@@ -457,7 +457,7 @@
       (reference "C18") (unit 1) (value "100nf") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/5eaf62d7-6de2-4a42-a336-ebf4661f440f"
-      (reference "C19") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C19") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/07029e92-6c19-4bbc-b039-07b4c69033e1"
       (reference "C20") (unit 1) (value "2.2uf") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -809,27 +809,6 @@
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/33a7543b-a9df-4d25-a274-52da22146bdc"
       (reference "R51") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/6aac3d74-734f-421c-8847-5315527d53bf"
-      (reference "TP1") (unit 1) (value "GVDD1") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/df28a715-fb7f-4788-b181-0451a95332a1/b67b854c-6b4d-4f0f-ad5a-c020a30afe9b"
-      (reference "TP2") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/df28a715-fb7f-4788-b181-0451a95332a1/91f97cbb-0d8d-4565-9fb9-05ae9fa03f4c"
-      (reference "TP4") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/df28a715-fb7f-4788-b181-0451a95332a1/ac2ea83a-716a-4910-8007-be67a3c9e061"
-      (reference "TP5") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/df28a715-fb7f-4788-b181-0451a95332a1/8516c905-148d-471c-bc00-66544514f8a4"
-      (reference "TP6") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/df28a715-fb7f-4788-b181-0451a95332a1/910a7529-40fa-41f6-8e29-dbf774297cfa"
-      (reference "TP7") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/9cd1e2e6-d3b3-48e3-990d-4456b9325132/fb582b69-70d2-463f-9e7b-45d926289b20"
-      (reference "TP8") (unit 1) (value "GVDD1") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/2c15377d-2cfe-4f8f-8258-0030ddf0a595"
       (reference "U1") (unit 1) (value "STM32F415RGTx") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
