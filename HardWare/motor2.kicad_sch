@@ -2641,7 +2641,7 @@
     (property "Value" "hall" (id 1) (at 267.97 43.5355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502386-0570_1x05-1MP_P1.25mm_Horizontal" (id 2) (at 265.43 41.91 0)
+    (property "Footprint" "USER:M1010RS-05P" (id 2) (at 265.43 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 265.43 41.91 0)

@@ -37,3 +37,6 @@ err Foc_Open_Loop(TIM_HandleTypeDef *htim, int16_t Iq_ref, int16_t Id_ref, int16
     return Error;
 }
 
+void Current_PI_Controller(){
+    
+}

@@ -559,31 +559,31 @@
       (reference "C52") (unit 1) (value "40nf") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/0e3bd9b8-31ee-48ec-be70-539a651373db"
-      (reference "C53") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C53") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/1fb87db7-3340-4e3b-9b5f-bd4a74b66b5b"
-      (reference "C54") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C54") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/48240d85-575e-4cf1-b0e5-0ec279c32684"
-      (reference "C55") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C55") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/4eec7e62-776c-4f70-b7f3-f66b687a6a2a"
       (reference "C56") (unit 1) (value "100nf") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/5845078b-abf0-487e-a8f2-cf52c4512b68"
-      (reference "C57") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C57") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/8f255cf6-bd63-4784-be60-b9e99acebf9c"
-      (reference "C58") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C58") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/b62cc889-40b7-4736-b693-b874195d3a28"
-      (reference "C59") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C59") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/bf70e22c-b882-4c49-9eaf-c54ecfa89ae0"
-      (reference "C60") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C60") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/aa810ee9-15f7-4230-a175-4d42fb512785"
-      (reference "C61") (unit 1) (value "47uf") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C61") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/4b3aec44-a8ef-43da-bbad-4a66a63e513c"
       (reference "D1") (unit 1) (value "ss34") (footprint "Diode_SMD:D_SMA")
@@ -601,13 +601,13 @@
       (reference "J1") (unit 1) (value "复用Typec") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/38a6e5ff-9550-4b6f-8832-f9e8325b1eb7"
-      (reference "J2") (unit 1) (value "hall") (footprint "Connector_Molex:Molex_CLIK-Mate_502386-0570_1x05-1MP_P1.25mm_Horizontal")
+      (reference "J2") (unit 1) (value "hall") (footprint "USER:M1010RS-05P")
     )
     (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/dc25508e-c804-4f4c-a3ff-bf7c69091071"
       (reference "J3") (unit 1) (value "Conn_01x03") (footprint "USER:MR30-M")
     )
     (path "/9cd1e2e6-d3b3-48e3-990d-4456b9325132/8add7608-33bd-40c7-a039-7fd9a44581a3"
-      (reference "J4") (unit 1) (value "hall") (footprint "Connector_Molex:Molex_CLIK-Mate_502386-0570_1x05-1MP_P1.25mm_Horizontal")
+      (reference "J4") (unit 1) (value "hall") (footprint "USER:M1010RS-05P")
     )
     (path "/9cd1e2e6-d3b3-48e3-990d-4456b9325132/b8c99ffe-8e8b-41bf-9f3f-63b8436e6277"
       (reference "J5") (unit 1) (value "Conn_01x03") (footprint "USER:MR30-M")
