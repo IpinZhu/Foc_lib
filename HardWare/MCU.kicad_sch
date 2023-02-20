@@ -4464,7 +4464,7 @@
   (symbol (lib_id "power:+3.3V") (at 33.02 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid edd83f5e-626d-4f35-81da-f2861967ba6d)
-    (property "Reference" "#PWR?" (id 0) (at 33.02 93.98 0)
+    (property "Reference" "#PWR0114" (id 0) (at 33.02 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 30.48 86.36 0)
