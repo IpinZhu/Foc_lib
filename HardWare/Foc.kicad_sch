@@ -396,6 +396,12 @@
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/edd83f5e-626d-4f35-81da-f2861967ba6d"
       (reference "#PWR0114") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/df28a715-fb7f-4788-b181-0451a95332a1/8811d286-fde2-4c11-8631-85c39f520e81"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/df28a715-fb7f-4788-b181-0451a95332a1/cde9f183-df87-4fa7-afde-e59a7801f009"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/73eba041-418e-48d4-982e-229072037626"
       (reference "C1") (unit 1) (value "6.8nf/100v") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -613,7 +619,10 @@
       (reference "J8") (unit 1) (value "XH2.54") (footprint "Connector_Molex:Molex_CLIK-Mate_502443-0270_1x02-1MP_P2.00mm_Vertical")
     )
     (path "/df28a715-fb7f-4788-b181-0451a95332a1/35d9bf99-e194-4ca0-b343-c6ed809bbd51"
-      (reference "J9") (unit 1) (value "SPI_conn") (footprint "Connector_Molex:Molex_CLIK-Mate_502386-0670_1x06-1MP_P1.25mm_Horizontal")
+      (reference "J9") (unit 1) (value "SPI_conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/df28a715-fb7f-4788-b181-0451a95332a1/4b964bb3-43e8-4f68-8eed-6cb2f34a2656"
+      (reference "J?") (unit 1) (value "SPI_conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/c48f93ad-1fe7-461a-8f59-fbd52141b569/63be013d-50c0-40cc-a884-1c7a32153fbf"
       (reference "L1") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_Abracon_ASPI-0630LR")
