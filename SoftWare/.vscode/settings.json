@@ -3,6 +3,8 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "*.cpp": "cpp",
-        "foc.h": "c"
+        "foc.h": "c",
+        "svpwm.h": "c",
+        "adc.h": "c"
     }
 }

@@ -28,8 +28,8 @@ typedef struct
     int16_t zeta;
     int16_t Ud_ref;
     int16_t Uq_ref;
-    int16_t Udc;
-    int16_t Tpwm;
+    uint16_t Udc;
+    uint16_t Tpwm;
 } StepTyp;
 // @param : sectors
 #define SECTOR_1 0U
